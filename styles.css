@@ -1,1 +1,67 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#69a2b0;
+}
+.container{
+	height:100vh;
+	width:100vw;
+	text-align:center;
+}
+form{
+	padding-top:2rem;
+	
+}
+lable{
+	font-size:1.5rem;
+	font-style:italic;
+}
+#player-1,#player-2{
+	height:1.6rem;
+	border-radius:.5rem
+}
+#submit{
+	padding:.4rem;
+	background-color:black;
+	color:white;
+	border-radius:.5rem;
+}
+#game-container{
+	/* border: 1px solid black; */
+	width:65vw;
+	height:70vh;
+	margin: 2rem auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	
+}
+#game{
+	/* border:1px solid black; */
+	width:60vw;
+	display:grid;
+	grid-template-columns:15vw 15vw 15vw;
+	justify-content:center;
+	align-items:center;
+	gap:1vw;
+}
+.box{
+	width:15vw;
+	height:15vh;
+	border-radius:.4rem;
+	border:none;
+	font-size:3rem;
+	box-shadow:0 0 1rem rgba(0, 0, 0, 0.3);
+	background:pink;
+}
+#reset{
+	margin:1rem auto;
+	padding:.4rem;
+	background-color:black;
+	color:white;
+	border-radius:.5rem;
+}
